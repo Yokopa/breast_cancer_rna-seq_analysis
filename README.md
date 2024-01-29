@@ -76,4 +76,4 @@ The available options for the `ont` parameter are:
 - "CC" for Cellular Components
 - "ALL" for all three subontologies
 
-For this project, I set `ont=BP` to focus on Biological Processes. However, you have the flexibility to choose other options based on your specific analysis goals.
+For this project, I set `ont=BP` to focus on Biological Processes. However, you can choose other options based on your specific analysis goals.
