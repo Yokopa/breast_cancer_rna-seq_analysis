@@ -30,7 +30,7 @@ With Hisat2, map the reads to the reference genome for each sample separately. T
 ```bash
 sbatch 04_create_sample_list.sh
 ```
-Then, run the following code:
+Then, run the following script:
 ```bash
 sbatch 05_hisat2_map_reads.sh
 ```
@@ -57,7 +57,7 @@ sbatch 11_create_sortedbam_list.sh
 sbatch 12_index_bam.sh
 ```
 ### 4. Count the number of reads per gene
-Use all of your bam files as input for featureCounts to produce a table of counts containing the number of reads per gene in each sample. This step will also require the annotation file you downloaded together with the reference sequence. Submit the script number 13:
+Use all of your bam files as input for featureCounts to produce a table of counts containing the number of reads per gene in each sample. This step will also require the annotation file you downloaded together with the reference sequence. To complete this step, submit the script number 13:
 ```bash
 sbatch 13_count_reads.sh
 ```
